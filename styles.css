@@ -35,7 +35,8 @@ main {
   align-items: center;
 }
 
-.mockup-section, .description-section {
+.mockup-section,
+.description-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,9 +89,10 @@ main {
   font-weight: 400;
   padding: 14px 80px;
   border-radius: 30px;
-  box-shadow: 1px -1px 29px -3px rgba(0,0,0,0.59);
-  -webkit-box-shadow: 1px -1px 29px -3px rgba(0,0,0,0.59);
-  -moz-box-shadow: 1px -1px 29px -3px rgba(0,0,0,0.59);  outline: none;
+  box-shadow: 1px -1px 29px -3px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 1px -1px 29px -3px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 1px -1px 29px -3px rgba(0, 0, 0, 0.59);
+  outline: none;
   border: none;
   transition: all 0.2s ease-in-out;
 }
@@ -115,12 +117,12 @@ main {
 }
 
 .icon i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
 }
 
 .social-icons i {
@@ -139,11 +141,11 @@ main {
 }
 
 .icon:hover {
-    border: 1px solid var(--soft-magenta);
+  border: 1px solid var(--soft-magenta);
 }
 
 .icon i:hover {
-    color: var(--soft-magenta);
+  color: var(--soft-magenta);
 }
 
 footer {
@@ -151,11 +153,10 @@ footer {
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
-  height: 1rem;
+  padding: 10px;
   color: #fff;
-  font-family: "Poppins", sans-serif;  
+  font-family: "Poppins", sans-serif;
   font-size: 12px;
 }
 
